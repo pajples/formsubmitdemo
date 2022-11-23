@@ -1,0 +1,271 @@
+ul,
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a18;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial Narrow', Arial;
+}
+
+nav {
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 6rem;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+    max-width: 60%;
+}
+
+
+#nav a:hover {
+    border-bottom: 5px solid #d7b46a;
+    font-weight: bold;
+    color: #003d59;
+}
+
+#onas {
+    border-right: 1px solid #d9dada;
+    border-left: 1px solid #d9dada;
+}
+
+#sluzby {
+    border-right: 1px solid #d9dada;
+}
+
+#a-kontakt {
+    border-right: 1px solid #d9dada;
+}
+
+a {
+    padding: 10px 15px 10px 15px;
+}
+
+a img {
+    display: flex;
+}
+
+#logo {
+    max-width: 12vw;
+    height: auto;
+}
+
+#uvodka {
+    background-color: #ececed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 464px;
+    width: 100vw;
+}
+
+#uvodka-pic {
+    height: 464px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(pics/uvodka.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#fud {
+    color: #d7b46a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#fud li {
+    padding: 5px 20px 5px 20px;
+    border-right: solid 1px #d9dada;
+}
+
+#fud li:last-child {
+    border-right: none;
+}
+
+
+#p-uvodka {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    /* margin-bottom: 15px; */
+}
+
+#onas-sec {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 638px;
+    width: 70vw;
+    background-image: url(pics/onas.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.h2 {
+    color: #d7b46a;
+    padding-top: 80px;
+    display: inline-block;
+    width: 275px;
+    margin: 0;
+    padding-bottom: 7px;
+    position: relative;
+    border-bottom: 3px solid #003d59;
+}
+
+.h2:before {
+    position: absolute;
+    background: #d7b46a;
+    height: 3px;
+    content: '';
+    width: 200px;
+    bottom: -3px;
+    left: 0;
+}
+
+#onas-p {
+    display: inline-block;
+    padding-left: 300px;
+    text-align: left;
+}
+
+#sluzby-sec {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 40px;
+}
+
+#sluzby-sec-wrapper {
+    margin-top: 50px;
+    height: 368px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-sluzby-block {
+    height: 368px;
+    width: 320px;
+    background-color: #f6f6f6;
+}
+
+h4 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+    background-color: #003d59;
+}
+
+.div-sluzby-block p {
+    padding: 15px;
+    margin: 0;
+}
+
+#kontakt {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70vw;
+    height: 210px;
+    background-image: url(pics/kontaktY.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#div-kontakt {
+    color: white;
+    line-height: 25px;
+    max-width: 400px;
+    margin-left: 100px;
+}
+
+span {
+    color: #b08e5e;
+}
+
+#div-kontakt p {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+#sec-form {
+    height: 475px;
+    background-image: url(pics/form.jpg);
+    background-position: bottom;
+    background-size: cover;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+input[type="text"] {
+    background: transparent;
+}
+
+input[type="email"] {
+    background: transparent;
+}
+
+.form-control {
+    background: transparent;
+}
+
+#h2-form {
+    color: #d7b46a;
+}
+
+#p-form {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+#button {
+    color: black;
+    background-color: #b08e5e;
+}
+
+#textarea {
+    margin-top: 15px;
+}
+
+input,
+label {
+    display: block;
+}
+
+
+@media (max-width: 1153px) {
+    nav {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}

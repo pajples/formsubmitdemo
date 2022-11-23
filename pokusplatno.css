@@ -1,0 +1,604 @@
+/* .fancy-border {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-top: 5px solid;
+    border-image: (right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%); */
+
+/* h3 {
+    display: inline-block;
+    width: 275px;
+    margin: 0;
+    padding-bottom: 7px;
+    position: relative;
+    border-bottom: 3px solid #003d59;
+}
+
+h3:before {
+    position: absolute;
+    background: #d7b46a;
+    height: 3px;
+    content: '';
+    width: 200px;
+    bottom: -3px;
+    left: 0;
+} */
+
+/* ul li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    background-color: aquamarine;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+
+}
+
+h4 {
+    line-height: 30px;
+    margin-top: 0;
+    background-color: white;
+} */
+
+
+#mainNavbar {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: white;
+    min-height: 100px;
+}
+
+body {
+    background-color: white;
+}
+
+#logo {
+    width: 193.83px;
+    height: 40.95px;
+
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 40px;
+    min-width: 80px;
+}
+
+.nav-link {
+    color: #1a1a18;
+}
+
+
+.nav-item:hover {
+    border-bottom: 5px solid #d7b46a;
+    font-weight: bold;
+    color: #003d59;
+}
+
+#onas {
+    border-left: 1px solid #d9dada;
+    border-right: 1px solid #d9dada;
+
+}
+
+#sluzby {
+    border-right: 1px solid #d9dada;
+}
+
+#a-kontakt {
+    border-right: 1px solid #d9dada;
+}
+
+
+.navbar-toggler {
+    color: #d7b46a;
+}
+
+#uvodka {
+    background-color: #ececed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 464px;
+    width: 100vw;
+}
+
+#uvodka-pic {
+    height: 464px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(Arelas/pics/uvodka.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#fud {
+    color: #d7b46a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#fud li {
+    padding: 5px 20px 5px 20px;
+    border-right: solid 1px #d9dada;
+}
+
+#fud li:last-child {
+    border-right: none;
+}
+
+
+#p-uvodka {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    padding-left: 45px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#onas-sec {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 638px;
+    background-image: url(Arelas/pics/onas.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.h2 {
+    color: #d7b46a;
+    font-size: 20px;
+    padding-top: 80px;
+    display: inline-block;
+    width: 275px;
+    margin: 0;
+    padding-bottom: 7px;
+    position: relative;
+    border-bottom: 3px solid #003d59;
+}
+
+.h2:before {
+    position: absolute;
+    background: #d7b46a;
+    height: 3px;
+    content: '';
+    width: 200px;
+    bottom: -3px;
+    left: 0;
+}
+
+#onas-p {
+    display: inline-block;
+    padding-left: 300px;
+    text-align: left;
+}
+
+#bott-border {
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background-color: antiquewhite;
+}
+
+#sluzby-sec {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 40px;
+}
+
+#sluzby-sec-wrapper {
+    margin-top: 30px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-sluzby-block {
+    height: 368px;
+    width: 320px;
+    background-color: #f6f6f6;
+}
+
+h4 {
+    color: white;
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+    background-color: #003d59;
+}
+
+.div-sluzby-block p {
+    padding: 15px;
+    margin: 0;
+}
+
+.p-sluzby {
+    font-size: 0.8rem;
+    border-bottom: #d7b46a solid 3px;
+}
+
+.p-sluby:before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+    height: 15px;
+    width: 50%;
+    border-bottom: 3px solid #000;
+  }
+
+
+#kontakt {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 210px;
+    background-image: url(Arelas/pics/kontaktY.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#div-kontakt {
+    color: white;
+    line-height: 25px;
+    margin-left: 100px;
+}
+
+span {
+    color: #b08e5e;
+}
+
+#div-kontakt p {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+#sec-form {
+    height: 475px;
+    background-image: url(Arelas/pics/form.jpg);
+    background-position: bottom;
+    background-size: cover;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.form-group {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+input[type="text"] {
+    background: transparent;
+}
+
+input[type="email"] {
+    background: transparent;
+}
+
+.form-control {
+    background: transparent;
+}
+
+#h2-form {
+    color: #d7b46a;
+    padding-bottom: 15px;
+}
+
+#p-form {
+    color: white;
+    padding-bottom: 30px;
+    font-size: small;
+}
+
+label {
+    color: white;
+}
+
+#button {
+    color: black;
+    background-color: #b08e5e;
+}
+
+#textarea {
+    margin-top: 15px;
+}
+
+input,
+label {
+    display: block;
+}
+
+#footer {
+    height: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:#DBDBDB;
+}
+
+.gg-arrow-up {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+}
+.gg-arrow-up::after,
+.gg-arrow-up::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 4px
+}
+.gg-arrow-up::after {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    left: 7px
+}
+.gg-arrow-up::before {
+    width: 2px;
+    height: 16px;
+    left: 10px;
+    background: currentColor
+}
+
+button {
+    background-color: transparent;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #b08e5e;
+    cursor: pointer;
+  }
+
+  #myBtn:hover {
+   color:#d7b46a;
+  }
+
+/* input[type="text"] {
+    background: transparent;
+}
+
+input[type="email"] {
+    background: transparent;
+}
+
+.form-control {
+    background: transparent;
+} */
+@media (max-width:1250px) {
+    .div-sluzby-block {
+        width: 100%;
+        max-height: 268px;
+    }
+}
+
+@media (max-width:1190px) {
+    #mainNavbar {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+
+@media (max-width:991px) {
+    #fud {
+        font-size: 25px;
+    }
+
+
+    #uvodka-pic {
+        width: 100vw;
+    }
+
+    .navbar-brand {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #onas {
+        border-left: none;
+        border-right: none;
+
+    }
+
+    #sluzby {
+        border-right: none;
+    }
+
+    #a-kontakt {
+        border-right: none;
+    }
+
+    #p-uvodka {
+        padding-left: 38px;
+    }
+
+    #onas-sec {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #sluzby-sec {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
+    #kontakt {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #sec-form {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}   
+
+ @media (max-width:645px) {
+        #mainNavbar {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        #uvodka-pic {
+            height: 350px;
+        }
+
+        #fin {
+            min-width: 152.64px;
+            text-align: center;
+        }
+
+        #uvodka {
+            height: 350px;
+        }
+
+        #logo {
+            width: 135.681px;
+            height: 28.665px;
+        }
+
+        #fud {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        #fud ul {
+            padding: none;
+        }
+
+
+        #fud li {
+            padding: 5px 20px 5px 20px;
+            border-right: none;
+            border-bottom: solid 1px #d9dada;
+        }
+
+        #fud li:last-child {
+            border: none;
+        }
+
+        #p-uvodka {
+            text-align: center;
+            color: white;
+            font-size: 1rem;
+            padding: 0;
+        }
+
+        #onas-sec {
+            height: 538px;
+            margin: 0;
+        }
+
+        #onas-p {
+            display: inline-block;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: left;
+
+        }
+
+        .h2 {
+            padding-top: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        #sluzby-sec {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        #kontakt {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        #sec-form {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        #footer {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #p-form {
+            margin-bottom: 0;
+        }
+
+        #div-kontakt {
+            margin-left: 50px;
+        }
+}
+
+@media (max-width:576px) {
+        #sec-form {
+            padding-right: 50px;
+            height: 600px;
+        }
+
+        #kontakt {
+           font-size: 0.8rem;
+           padding-right: 50px;
+           height: 280px;
+        }
+ }
